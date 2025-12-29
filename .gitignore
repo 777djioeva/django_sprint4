@@ -1,0 +1,48 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+sent_emails/
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.py[co]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Статические файлы
+static/css/*.css
+!static/css/*.min.css
+
+# Тесты Практикума (оставляем!)
+tests/
+
+# Миграции (оставляем только свои)
+!blog/migrations/
+!users/migrations/
+!pages/migrations/
+
+# Файлы проекта
+!blogicum/
+!manage.py
+!requirements.txt
+!pytest.ini
+!setup.cfg
